@@ -1,0 +1,65 @@
+* {
+
+padding: unset;
+margin: unset;
+border: unset;
+text-decoration: none;
+font-family: "Aboreto", sistem-ui;
+font-style: normal;
+list-style: none;
+box-sizing: border-box;
+line-height: none;
+}
+
+body {
+    color: #1e1e1e;
+}
+
+header nav{
+display: flex;
+justify-content: flex-end;
+padding: 10px 60px;
+gap: 60px;
+
+
+}
+
+section nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: unset;
+}
+
+.presentationcard{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.jumbotron{
+    background-image: url(Section.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFF;
+    padding: 100px 100px;
+
+}
+
+.jumbotron1{
+    background-image: url(Jumbotron.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFF;
+    padding: 100px 100px;
+    
+}
+
