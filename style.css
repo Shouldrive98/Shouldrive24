@@ -34,7 +34,6 @@ section nav{
 .presentationcard{
     display: flex;
     gap: 12px;
-    flex-direction: column;
 }
 
 .jumbotron{
