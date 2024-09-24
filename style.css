@@ -4,7 +4,7 @@ padding: unset;
 margin: unset;
 border: unset;
 text-decoration: none;
-font-family: "Aboreto", sistem-ui;
+font-family: "Aboreto", "Inter medium", "Inter regular" sistem-ui;
 font-style: normal;
 list-style: none;
 box-sizing: border-box;
@@ -16,10 +16,13 @@ body {
 }
 
 header nav{
+margin: auto;
+width: 50%;
 display: flex;
 justify-content: flex-end;
 padding: 10px 60px;
 gap: 60px;
+border: 3px;
 
 
 }
@@ -32,8 +35,18 @@ section nav{
 }
 
 .presentationcard{
-    display: flex;
-    gap: 12px;
+display: table;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+flex: 1;
+float: left;
+width: 25%;
+padding: 0 10px;
+text-align: center;
+background-color: #f1f1f1;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+padding: 16px;
+text-align: center;
 }
 
 .jumbotron{
@@ -44,6 +57,7 @@ section nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Aboreto";
     color: #FFFF;
     padding: 100px 100px;
 
@@ -57,8 +71,9 @@ section nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    font-family: "Aboreto";
     color: #FFFF;
     padding: 100px 100px;
-    
 }
 
