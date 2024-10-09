@@ -1,0 +1,181 @@
+* {
+
+padding: unset;
+margin: unset;
+border: unset;
+text-decoration: none;
+font-family: "Aboreto", "Inter medium", "Inter regular" sistem-ui;
+font-style: normal;
+list-style: none;
+box-sizing: border-box;
+line-height: none;
+}
+
+body {
+    color: #1e1e1e;
+}
+
+header nav{
+margin: auto;
+width: 100%;
+display: flex;
+justify-content: flex-end;
+padding: 10px 80px;
+gap: 200px;
+
+
+.barra{
+display: flex;
+align-items: center;
+padding: 10px 20px;
+font-size: 0px;
+border: 1px solid #ccc;
+border-radius: 10px;
+margin-right: 10px;
+}
+
+.titulos{
+    display: flex;
+    float: left;
+    width: 25%;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.titulos:hover {
+    color: #A6927B;
+}
+
+.busqueda{
+    padding: 10px 20px;
+    background-color: #687363;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-out;
+}
+
+.busqueda:hover {
+background-color: #3C3C43;
+}
+
+}
+
+.boton1{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter Bold";
+    transition: background 0.3s ease-out;
+    color: #f1f1f1;
+    background-color: #687363
+}
+
+.boton1:hover {
+    background-color: #3C3C43;
+}
+
+section nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: unset;
+}
+
+
+.presentationcard{
+display: table;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+flex: 1;
+float: left;
+width: 25%;
+padding: 0 10px;
+text-align: center;
+background-color: #f1f1f1;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+padding: 16px;
+border: 1px solid #f1f1f1;
+border-radius: 10px;
+transition: transform 0.3s ease-in-out;
+}
+
+.presentationcard:hover {
+    transform: scale(1.03);
+}
+
+.blackborder{
+padding: 5px 85px;
+color: #f1f1f1;
+background-color: #3C3C43;
+border-radius: 10px;
+font-family: "Inter Bold";
+cursor: pointer;
+transition: background 0.3s ease-out;
+
+}
+.blackborder:hover {
+    background-color: #1e1e1e;
+}
+
+.jumbotron{
+    background-image: url(Section.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Aboreto";
+    color: #FFFF;
+    padding: 100px 100px;
+
+}
+
+.jumbotron1{
+    background-image: url(Jumbotron.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Aboreto";
+    color: #FFFF;
+    padding: 100px 100px;
+}
+
+.footer{
+width: 80%;
+height: 40vh;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 0 auto;
+align-items: center;
+gap: 70px;
+
+.footer-container {
+transition: background .3s ease-out;
+}
+
+}
+.rounded-button {
+    background-color: #A6927B;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100px;
+}
